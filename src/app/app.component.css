@@ -7,3 +7,9 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: aqua;
 }
+
+button {
+  color: brown;
+  background-color: blue;
+  padding: 15px 15px;
+}
