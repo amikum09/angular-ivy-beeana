@@ -12,11 +12,16 @@ export class WarningAlertComponent implements OnInit {
   constructor() {
     setTimeout(() => {
       this.enableordisable = true;
-    }, 2000);
+    }, 15000);
   }
 
   onClickOfButton() {
     this.buttonIsClicked = 'Button is clicked';
   }
+
+  printTheInput() {
+    console.log("it's working");
+  }
+
   ngOnInit() {}
 }
